@@ -31,9 +31,19 @@
     <% if user_signed_in? %>
     <%= button_to "Đăng xuất", destroy_user_session_path, method: :delete, class:"nav_a right_align" %>
     <% end %>
-
-    
   </nav>
     <%= yield %>
   </body>
+
+  <footer class="minimal-footer">
+    <div class="footer-content">
+      <div class="logo-section">
+        <h2>Ruby</h2>
+        <p>Code by <span style="font-weight: bold;">Tạ Hoàng Long. </span> </p>
+      </div>
+      <div class="footer-bottom">
+        <p style="font-weight: bold;">&copy; 2025 Ruby on Rails.</p>
+      </div>
+  </footer>
+
 </html>

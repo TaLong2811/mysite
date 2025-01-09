@@ -31,6 +31,7 @@
     <% if user_signed_in? %>
     <%= button_to "Đăng xuất", destroy_user_session_path, method: :delete, class:"nav_a right_align" %>
     <% end %>
+
     
   </nav>
     <%= yield %>

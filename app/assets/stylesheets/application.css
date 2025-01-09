@@ -11,6 +11,9 @@
  body {
     margin: 0; /* Loại bỏ margin mặc định của body */
     font-family: sans-serif;
+    background-image: url('bg0.png');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .red{
@@ -958,4 +961,8 @@ main {
   display: block; /* Để hình ảnh hiển thị dạng block và có thể căn giữa */
   margin-left: auto;
   margin-right: auto;
+}
+
+.main_content{
+  min-height: 800px;
 }

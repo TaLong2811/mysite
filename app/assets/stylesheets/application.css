@@ -944,10 +944,6 @@ main {
 
 
 
-
-
-
-
 .container {
   display: flex; /* Dùng Flexbox để sắp xếp các khung theo hàng ngang */
   justify-content: space-between; /* Khoảng cách đều giữa các khung */
@@ -956,8 +952,8 @@ main {
 
 
 .bottom-image {
-  height:680px;
-  width: 700px; /* Ví dụ: chiều rộng 200px */
+  height:700px;
+  width:960px; /* Ví dụ: chiều rộng 200px */
   margin-top: 0; /* Ví dụ: khoảng cách 20px so với phần tử phía trên */
   display: block; /* Để hình ảnh hiển thị dạng block và có thể căn giữa */
   margin-left: auto;

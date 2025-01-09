@@ -957,8 +957,8 @@ main {
 
 .bottom-image {
   height:680px;
-  width: 200px; /* Ví dụ: chiều rộng 200px */
-  margin-top: 20px; /* Ví dụ: khoảng cách 20px so với phần tử phía trên */
+  width: 700px; /* Ví dụ: chiều rộng 200px */
+  margin-top: 0; /* Ví dụ: khoảng cách 20px so với phần tử phía trên */
   display: block; /* Để hình ảnh hiển thị dạng block và có thể căn giữa */
   margin-left: auto;
   margin-right: auto;

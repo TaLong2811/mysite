@@ -11,7 +11,7 @@
  body {
     margin: 0; /* Loại bỏ margin mặc định của body */
     font-family: sans-serif;
-    background-image: url('bg0.png');
+    background-image: url('bg1.png');
     background-size: cover;
     background-repeat: no-repeat;
   }

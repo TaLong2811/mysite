@@ -509,13 +509,11 @@ main {
 }
 
 
-
  /* add,fix,delete nhaaaaaaaaaaaaaa*/
 
  /* Custom Body Styling */
 .custom-body {
   font-family: 'Arial', sans-serif;
-  background-color: transparent; /* Background nhẹ nhàng, màu xanh dương nhạt */
   display: flex;
   justify-content: center;
   align-items: center;
